@@ -4,10 +4,10 @@ A FastAPI-based voice assistant with speech-to-text, text-to-speech, grammar cor
 
 ## Features
 
-- Speech-to-Text using Parakeet TDT
+- Speech-to-Text using openai/whisper-base
 - Grammar correction
-- Integration with open-source LLM
-- Text-to-Speech conversion
+- Integration with open-source LLM using "phi3", alias="OLLAMA_MODEL"
+- Text-to-Speech conversion using microsoft/speecht5_tts
 - RESTful API endpoints
 - Docker support
 
